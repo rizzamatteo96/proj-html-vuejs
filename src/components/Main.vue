@@ -1,13 +1,18 @@
 <template>
-  <div>
-    
-  </div>
+  <main>
+    <Slider/>
+  </main>
 </template>
 
 
 <script>
+import Slider from './Slider.vue'
+
 export default {
-  name : 'Main'
+  name : 'Main',
+  components : {
+    Slider
+  }
 }
 </script>
 

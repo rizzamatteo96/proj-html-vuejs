@@ -17,7 +17,7 @@
 
       <!-- nella parte destra ci sono un pulsante e una lente per la ricerca -->
       <div class="right d-flex align-items-center">
-        <button class="ms-btn-light-green">Purchase</button>
+        <button class="ms-btn ms-btn-light-green me-4">Purchase</button>
         <i class="fas fa-search ms-green"></i>
       </div>
     </div>
