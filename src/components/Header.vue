@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <header>
     <!-- inizio header top -->
     <div class="header-top text-white">
       <!-- inizio contenitore -->
@@ -27,31 +27,25 @@
 
     <!-- inizio header bottom -->
     <div class="header-bottom">
-
+      <!-- Caricamento NavBar -->
+      <NavBar/>
     </div>
     <!-- fine header bottom -->
-  </div>
+  </header>
 </template>
 
 
 <script>
+import NavBar from './NavBar.vue'
 export default {
-  name : 'Header'
+  name : 'Header',
+  components : {
+    NavBar
+  }
 }
 </script>
 
 
 <style lang="scss">
-  .header-top{
-    background-color: #3d3d3d;
-
-    .container{
-      height: 50px;
-
-      .left > *,
-      .right > *{
-        margin: 0 10px;
-      }
-    }
-  }
+  @import '@/style/header.scss';
 </style>

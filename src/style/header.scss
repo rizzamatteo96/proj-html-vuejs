@@ -1,0 +1,27 @@
+header{
+  box-shadow: 0 0 20px lightgray;
+
+  .header-top{
+    background-color: #3d3d3d;
+  
+    .container{
+      height: 50px;
+  
+      .left > *,
+      .right > *{
+        margin: 0 10px;
+      }
+    }
+  }
+  
+  .header-bottom{
+  
+    .container{
+      height: 100px;
+  
+      nav ul{
+        list-style: none;
+      }
+    }
+  }
+}

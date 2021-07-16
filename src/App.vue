@@ -4,7 +4,7 @@
     <!-- Caricamento componente header -->
     <Header/>
 
-    <!-- Caricamente componente main -->
+    <!-- Caricamento componente main -->
     <Main/>
 
     <!-- Caricamento componente footer -->
