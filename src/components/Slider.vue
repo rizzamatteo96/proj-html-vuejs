@@ -3,7 +3,7 @@
     <div class="container h-100">
 
       <!-- richiamo la card per visualizzare i risultati -->
-      <Card
+      <SliderCard
       :cardInfomations="cardInfo[index]"
       />
 
@@ -25,12 +25,12 @@
 
 
 <script>
-import Card from './Card.vue'
+import SliderCard from './SliderCard.vue'
 
 export default {
   name : 'Slider',
   components : {
-    Card
+    SliderCard
   },
   data(){
     return{
