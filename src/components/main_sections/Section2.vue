@@ -1,11 +1,11 @@
 <template>
   <div class="section2">
-    <div class="container-fluid my-5">
+    <div class="container-fluid my-5 py-5">
       <div class="row row-cols-2 g-0 align-items-center">
         <!-- img + text -->
         <!-- inizio parte sinistra -->
         <div class="left pe-5">
-          <img class="w-100 p-3" src="@/assets/img/business-woman.jpg" alt="business woman">
+          <img class="w-75" src="@/assets/img/business-woman.jpg" alt="business woman">
         </div>
         <!-- fine parte sinistra -->
 
@@ -40,5 +40,10 @@ export default {
 <style lang="scss">
   .section2{
     background-color: #f9f9f9;
+
+    img{
+      border-radius: 20px;
+      box-shadow: 0 0 30px lightgray;
+    }
   }
 </style>
