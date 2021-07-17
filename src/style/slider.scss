@@ -2,29 +2,10 @@
   margin-top: 150px;
   background-color: #f9f9f9;
   height: 800px;
+  overflow-x: hidden;
 
   img{
     object-fit: none;
-  }
-
-  .divider{
-    &::before{
-      content: '';
-      display: inline-block;
-      height: 5px;
-      width: 10px;
-      border-radius: 5px;
-      margin-right: 10px;
-      background-image: linear-gradient(to right, rgba(7, 217, 0, 0.8) , rgba(0, 217, 166, 0.8));
-    }
-    &::after{
-      content: '';
-      display: inline-block;
-      height: 5px;
-      width: 50px;
-      border-radius: 5px;
-      background-image: linear-gradient(to right, rgba(7, 217, 0, 0.8) , rgba(0, 217, 166, 0.8));
-    }
   }
 
   .social{
@@ -47,8 +28,9 @@
     
     ul{
       background-image: linear-gradient(to right, rgb(54, 54, 54) , black);
+      box-shadow: 5px 5px 20px  #00000056;
       border-radius: 100px;
-      color: white;
+      color: lightgray;
       list-style: none;
       margin: 0;
       padding: 0;
