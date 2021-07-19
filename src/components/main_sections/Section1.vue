@@ -70,7 +70,6 @@ export default {
     .title{
       font-size: 3rem;
       font-family: "Quicksand";
-      font-weight: 700;
     }
 
     .find-out .card {

@@ -6,8 +6,8 @@
       alt="business picture"
       class="w-100">
 
-      <div class="test text-start">
-        <div class="text-secondary fs-6"> {{cardData.date}} </div>
+      <div class="text-place text-start">
+        <div class="ms-text-secondary fs-6"> {{cardData.date}} </div>
         <ul class="p-0 fs-4 fw-bold">
           <li> {{cardData.title}} </li>
         </ul>
@@ -32,7 +32,21 @@ export default {
       border-radius: 5px;
     }
 
-    .test{
+    &:hover .text-place{
+      bottom: -20px;
+      background-image: linear-gradient(to right, rgba(7, 217, 0, 0.8) , rgba(0, 219, 168, 0.8));
+      color: white;
+
+      .ms-text-secondary{
+        color: white;
+      }
+
+      ul li::marker{
+        color: white;
+      }
+    }
+
+    .text-place{
       position: absolute;
       bottom: 0;
       left: 50%;
@@ -44,6 +58,12 @@ export default {
       border-radius: 5px;
       box-shadow: 5px 5px 20px grey;
       width: 80%;
+
+      transition: bottom 1s, color 0.5s;
+
+      .ms-text-secondary{
+        color: grey;
+      }
 
       ul li::marker{
         color: #00d9a6;
