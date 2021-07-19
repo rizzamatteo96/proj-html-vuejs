@@ -1,5 +1,5 @@
 <template>
-  <div class="section5">
+  <div class="section5 py-5">
     <div class="container-fluid text-center">
       <!-- titolo + divisore sezione -->
       <div class="title text-capitalize fs-1 fw-bold">Latest news &amp; our <span class="ms-green">blog</span></div>
@@ -12,8 +12,8 @@
       <!-- fine card con immagini -->
 
       <!-- pulsante centrale nero -->
-      <div class="text-center mt-5">
-        <button class="ms-btn ms-btn-black my-5">View all post</button>
+      <div class="text-center">
+        <button class="ms-btn ms-btn-black btn-view">View all post</button>
       </div>
 
       <!-- inizio box colorate -->
@@ -93,14 +93,17 @@ export default {
   .section5{
     background-color: #f9f9f9;
 
+    .btn-view{
+      margin: 10rem 0 5rem 0;
+    }
+
     .coloured-boxes{
 
       .left,
       .right{
         border-radius: 20px;
         padding: 4rem 0;
-      box-shadow: 5px 5px 20px grey;
-
+        box-shadow: 5px 5px 20px grey;
       }
 
       .left{
@@ -115,7 +118,7 @@ export default {
           border-radius: 100px;
 
           input{
-            padding: 1rem 30% 1rem 0;
+            padding: 1rem 15% 1rem 0;
             background-color: unset;
             border: none;
           }

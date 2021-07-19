@@ -1,4 +1,6 @@
 @import 'bootstrap';
+@import '~@fontsource/ubuntu/index.css'; 
+@import '~@fontsource/ubuntu/400.css';
 
 $ms-green: #00d9a6;
 
@@ -8,6 +10,14 @@ $ms-green: #00d9a6;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+body{
+  font-family: "Ubuntu";
+}
+
+.pointer{
+  cursor: pointer;
 }
 
 .ms-btn{

@@ -8,13 +8,12 @@
         <div class="experience text-uppercase ms-green fw-bold fs-5">17 years of experience</div>
 
         <!-- titolo diviso in due sezioni -->
-        <div class="title fw-bold fs-1">
+        <div class="title fw-bold">
           <div>{{cardInfomations.mainTitleTop}}</div>
           <div>
             {{cardInfomations.mainTitleBot}} 
             <span class="ms-green">{{cardInfomations.mainTitleGreen}}</span>
           </div> 
-          
         </div>
 
         <!-- divisore tratteggiato -->
@@ -31,11 +30,11 @@
         <!-- link ai social -->
         <div class="social text-uppercase fs-6 fw-bold mt-5">
           <a href="#">Facebook</a>
-           - 
+          <span class="mx-3">-</span>
           <a href="#">Instagram</a>
-           - 
+          <span class="mx-3">-</span>
           <a href="#">Youtube</a>
-           - 
+          <span class="mx-3">-</span>
           <a href="#">Twitter</a>
         </div>
       </div>

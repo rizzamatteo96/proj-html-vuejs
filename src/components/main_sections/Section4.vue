@@ -1,10 +1,10 @@
 <template>
-  <div class="section4 my-5 ">
+  <div class="section4">
     <div class="container-fluid overlay text-center py-5">
       <div class="ms-fs-big ms-green">“</div>
-      <div class="text-secondary fst-italic fs-4 my-5 w-50 mx-auto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos odit natus expedita nulla iure ut numquam repellat veritatis saepe cumque odio repellendus nihil unde sint nemo nobis, voluptate iusto consequuntur!</div>
+      <div class="text-secondary fst-italic fs-4 my-5 w-50 mx-auto">When it comes to barbequing, there are two main schools of thought for the techniques that you can use. Freshly scrambled eggs with applewood smoked bacon - are amazing!</div>
       <div class="client"> 
-        <img src="@/assets/img/business-woman.jpg" alt="business woman">
+        <img src="@/assets/img/business-woman.jpg" alt="business woman" class="mb-3">
         <div class="text-uppercase ms-green fs-5">Lissa Dublin</div>
         <div class="text-secondary">Client</div>
       </div>
@@ -33,9 +33,10 @@ export default {
     }
 
     .client img{
-      width: 150px;
-      height: 150px;
+      width: 100px;
+      height: 100px;
       border-radius: 50%;
+      border: 5px solid white;
       object-fit: cover;
     }
   }

@@ -9,7 +9,7 @@ header{
   .header-top{
     background-color: #3d3d3d;
   
-    .container{
+    .container-fluid{
       height: 50px;
   
       .left > *,
@@ -22,11 +22,20 @@ header{
   .header-bottom{
     background-color: #fff;
   
-    .container{
+    .container-fluid{
       height: 100px;
   
       nav ul{
         list-style: none;
+
+        a{
+          color: black;
+          transition: all 0.3s;
+
+          &:hover{
+            color: grey;
+          }
+        }
       }
     }
   }

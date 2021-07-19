@@ -3,7 +3,7 @@
     <!-- inizio header top -->
     <div class="header-top text-white">
       <!-- inizio contenitore -->
-      <div class="container d-flex justify-content-between align-items-center">
+      <div class="container-fluid d-flex justify-content-between align-items-center px-5">
 
         <!-- inizio parte sx -->
         <div class="left">

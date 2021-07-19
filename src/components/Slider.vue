@@ -98,15 +98,17 @@ export default {
           img : require('../assets/img/slider-img-1.png')
         },
         {
-          mainTitle : 'Cose2',
-          mainTitleGreen : 'altre cose2',
-          paragraf : 'blablablablabla2',
+          mainTitleTop : 'A Group of ',
+          mainTitleBot : 'Expert',
+          mainTitleGreen : 'Planner',
+          paragraf : 'Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.Separated they live in Bookmarksgrove.',
           img : require('../assets/img/slider-img-2.png')
         },
         {
-          mainTitle : 'Cose3',
-          mainTitleGreen : 'altre cose3',
-          paragraf : 'blablablablabla3',
+          mainTitleTop : 'Focus On Your',
+          mainTitleBot : '',
+          mainTitleGreen : 'Business',
+          paragraf : 'Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.Separated they live in Bookmarksgrove.',
           img : require('../assets/img/slider-img-3.png')
         }
       ]
