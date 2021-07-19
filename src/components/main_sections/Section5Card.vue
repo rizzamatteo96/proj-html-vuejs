@@ -20,7 +20,7 @@
 export default {
   name :'Section5Card',
   props : {
-    'cardData' : Array
+    'cardData' : Object
   }
 }
 </script>

@@ -1,12 +1,8 @@
 .slider{
   margin-top: 150px;
   background-color: #f9f9f9;
-  height: 800px;
-  overflow-x: hidden;
-
-  img{
-    object-fit: none;
-  }
+  // max-height: 800px;
+  overflow: hidden;
 
   .social{
     a{

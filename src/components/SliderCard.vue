@@ -1,7 +1,7 @@
 <template>
   <div class="h-100">
 
-    <div class="row h-100">
+    <div class="row h-100 ps-5 pe-3">
       <!-- lato sinistro - testo -->
       <div class="col-6 d-flex flex-column justify-content-center">
         <!-- anni di esperienza -->
@@ -41,16 +41,9 @@
       </div>
 
       <!-- lato destro - immagine -->
-      <div class="col-6 h-100">
-        <img class="h-100" :src="require(`../assets/img/${cardInfomations.img}`)" alt="slider img">
-      </div>
+      <div class="col-6 altezza"  v-bind:style="{ backgroundImage: 'url(' + cardInfomations.img + ')' }"> </div>
     </div>
 
-
-
-
-
-    
   </div>
 </template>
 
@@ -66,5 +59,8 @@ export default {
 
 
 <style lang="scss">
-
+  .altezza{
+    height: 1000px;
+    background-position: left center;
+  }
 </style>
