@@ -14,11 +14,6 @@
         />
       </VueSlickCarousel>
 
-      <!-- richiamo la card per visualizzare i risultati
-      <SliderCard
-      :cardInfomations="cardInfo[index]"
-      /> -->
-
       <div class="counter-slider">
         <ul>
           <li 

@@ -21,7 +21,7 @@
         <!-- inizio parte destra -->
         <div class="col-7">
           <div class="text-secondary mb-5">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque sunt quia placeat ipsa fuga molestiae, rem sint quibusdam vero voluptatem aut consectetur. Fuga maiores doloribus blanditiis iure ipsa illo delectus? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nulla repellat impedit eveniet placeat debitis sit aliquid amet illum quibusdam ex quod totam temporibus, provident, atque eaque, dolores consequatur quas. Minima.
+            Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.Separated they live in Bookmarksgrove.
           </div>
         </div>
         <!-- fine parte destra -->

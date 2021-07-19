@@ -8,7 +8,7 @@
         <!-- inizio colonna 1 -->
         <div>
           <img src="@/assets/img/logo_big.png" alt="logo phlox" class="mb-3">
-          <div>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse architecto suscipit incidunt nam hic quos rerum voluptatibus eum dignissimos et, accusantium cupiditate, repellendus ex corporis. Omnis voluptatem totam explicabo excepturi.</div>
+          <div>While the lovely valley teems with vapour around me, and the meridian sun strikes the upper surface of the impenetrable foliage of my trees.While the lovely valley teems with vapour around me.</div>
         </div>
         <!-- fine colonna 1 -->
 

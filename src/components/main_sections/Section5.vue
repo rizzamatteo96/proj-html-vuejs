@@ -44,7 +44,7 @@
       <!-- fine box colorate -->
 
       <!-- inizio sezione sponsor -->
-      <div class="sponsor row row-cols-6 align-items-center my-5">
+      <div class="sponsor row row-cols-6 align-items-center">
         <div v-for="(img,i) in 6" :key="i" >
           <img :src="require(`@/assets/img/client${i+1}.png`)" :alt="`client number ${i+1} picture`">
         </div>
@@ -135,6 +135,10 @@ export default {
       .right{
         background-image: linear-gradient(to left, rgba(7, 217, 0, 0.8) , rgba(0, 219, 168, 0.8));
       }
+    }
+
+    .sponsor{
+      margin: 8rem 0 5rem 0;
     }
   }
 </style>
