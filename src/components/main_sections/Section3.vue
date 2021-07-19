@@ -30,7 +30,11 @@
 
       <!-- inizio parte inferiore sezione 3 -->
       <div class="row row-cols-4 g-1 mb-5 bottom">
-        <img v-for="(img,i) in 8" :key="i" :src="require(`@/assets/img/sec3-${i+1}.jpg`)" alt="example" class="rounded rounded-3">
+        <div v-for="(card,i) in cardData" :key="i">
+          <Section3Card 
+          :cardInfo="card"/>
+        </div>
+        <!-- <img v-for="(img,i) in 8" :key="i" :src="require(`@/assets/img/sec3-${i+1}.jpg`)" alt="example" class="rounded rounded-3"> -->
       </div>
       <!-- fine parte inferiore sezione 3 -->
 
@@ -44,8 +48,59 @@
 </template>
 
 <script>
+import Section3Card from './Section3Card'
+
 export default {
-  name : 'Section3'
+  name : 'Section3',
+  components : {
+    Section3Card
+  },
+  data(){
+    return{
+      cardData : [
+        {
+          img : 'sec3-1.jpg',
+          title : 'The basket of flowers',
+          desc : ' Branding - marketing '
+        },
+        {
+          img : 'sec3-2.jpg',
+          title : 'A famous ferris wheel ',
+          desc : 'Marketing'
+        },
+        {
+          img : 'sec3-3.jpg',
+          title : 'Complementary colors ',
+          desc : 'Branding - Marketing'
+        },
+        {
+          img : 'sec3-4.jpg',
+          title : 'Business prestige ',
+          desc : 'Branding'
+        },
+        {
+          img : 'sec3-5.jpg',
+          title : 'Colorful origami boats',
+          desc : 'Branding - Marketing'
+        },
+        {
+          img : 'sec3-6.jpg',
+          title : 'Modern Couch ',
+          desc : 'Marketing'
+        },
+        {
+          img : 'sec3-7.jpg',
+          title : 'Hot air balloons ',
+          desc : 'Branding - Marketing'
+        },
+        {
+          img : 'sec3-8.jpg',
+          title : 'Make Difference',
+          desc : 'Branding'
+        },
+      ]
+    }
+  }
 }
 </script>
 

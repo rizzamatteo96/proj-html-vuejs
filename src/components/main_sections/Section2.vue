@@ -1,16 +1,20 @@
 <template>
   <div class="section2">
     <div class="container-fluid my-5 py-5">
-      <div class="row row-cols-2 g-0 align-items-center">
+      <div class="row g-0 align-items-center">
         <!-- img + text -->
         <!-- inizio parte sinistra -->
-        <div class="left pe-5">
-          <img class="w-75" src="@/assets/img/business-woman.jpg" alt="business woman">
+        <div class="cont-imgs col-7 left pe-5 position-relative">
+          <div class="position-relative">
+            <img class="w-50" src="@/assets/img/business-man.jpg" alt="business man">
+            <div class="overlay"></div>
+          </div>
+          <img class="w-50 img-first" src="@/assets/img/business-woman.jpg" alt="business woman">
         </div>
         <!-- fine parte sinistra -->
 
         <!-- inizio parte destra -->
-        <div class="right p-5">
+        <div class="col-5 right p-5">
           <div class="title fw-bold fs-1">
             learn more about our <span class="ms-green">missions</span>
           </div>
@@ -44,6 +48,27 @@ export default {
     img{
       border-radius: 20px;
       box-shadow: 0 0 30px lightgray;
+    }
+  }
+
+  .cont-imgs{
+    left: -30px;
+    margin-bottom: 120px;
+
+    .overlay{
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 50%;
+      height: 100%;
+      border-radius: 20px;
+      background-image: linear-gradient(to right, rgba(7, 217, 0, 0.8) , rgba(0, 219, 168, 0.8));
+    }
+
+    .img-first{
+      position: absolute;
+      top: 100px;
+      left: 30%;
     }
   }
 </style>

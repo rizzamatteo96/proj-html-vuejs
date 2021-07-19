@@ -16,10 +16,10 @@
         <div class="col-7">
           <div class="find-out row row-cols-2 g-5 m-0 p-0">
             <div v-for="(data,i) in findOutData" :key="i">
-              <div class="questo p-5">
-                <i :class="data.icon" class="mb-4 fs-1 text-secondary"></i>
+              <div class="card p-5">
+                <i :class="data.icon" class="mb-4 fs-1"></i>
                 <div class="title fs-3 mb-2"> {{data.title}} </div>
-                <div class="text-secondary"> {{data.par}} </div>
+                <div> {{data.par}} </div>
               </div>
             </div>
           </div>
@@ -65,8 +65,25 @@ export default {
 
 
 <style lang="scss">
-  .questo {
+  .find-out .card {
     box-shadow: 0 0 30px lightgray;
     border-radius: 20px;
+    transition: all 0.5s;
+    i{
+      transition: all 0.5s;
+      color: #00d9a6;
+    }
+
+    &:hover{
+      // background-color: red;
+      background-image: linear-gradient(to right, rgba(7, 217, 0, 0.8) , rgba(0, 219, 168, 0.8));
+      box-shadow: 5px 5px 20px  #00d9a656;
+      color: white !important;
+      cursor: pointer;
+
+      i{
+        color: white;
+      }
+    }
   }
 </style>
