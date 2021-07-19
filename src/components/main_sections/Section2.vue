@@ -6,16 +6,16 @@
         <!-- inizio parte sinistra -->
         <div class="cont-imgs col-7 left pe-5 position-relative">
           <div class="position-relative">
-            <img class="w-50" src="@/assets/img/business-man.jpg" alt="business man">
+            <img src="@/assets/img/business-man.jpg" alt="business man">
             <div class="overlay"></div>
           </div>
-          <img class="w-50 img-first" src="@/assets/img/business-woman.jpg" alt="business woman">
+          <img class="img-first" src="@/assets/img/business-woman.jpg" alt="business woman">
         </div>
         <!-- fine parte sinistra -->
 
         <!-- inizio parte destra -->
         <div class="col-5 right p-5">
-          <div class="title fw-bold fs-1">
+          <div class="title fw-bold">
             learn more about our <span class="ms-green">missions</span>
           </div>
 
@@ -23,7 +23,7 @@
 
           <div class="text-secondary mb-3">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.Separated they live in Bookmarksgrove.</div>
 
-          <button class="ms-btn ms-btn-light-green">Read more</button>
+          <button class="ms-btn ms-btn-light-green mt-5">Read more</button>
         </div>
         <!-- fine parte destra -->
       </div>
@@ -48,6 +48,12 @@ export default {
     img{
       border-radius: 20px;
       box-shadow: 0 0 30px lightgray;
+      width: 70%;
+    }
+
+    .title{
+      font-size: 3rem;
+      font-family: "Quicksand";
     }
   }
 
@@ -59,7 +65,7 @@ export default {
       position: absolute;
       top: 0;
       left: 0;
-      width: 50%;
+      width: 70%;
       height: 100%;
       border-radius: 20px;
       background-image: linear-gradient(to right, rgba(7, 217, 0, 0.8) , rgba(0, 219, 168, 0.8));

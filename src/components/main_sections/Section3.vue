@@ -9,7 +9,7 @@
 
           <div class="divider my-5"></div>
 
-          <div class="title fs-1 fw-bold">
+          <div class="title fw-bold">
             Our recent <span class="ms-green">web design</span> &amp; some examples of past <span class="ms-green">projects</span>
           </div>
 
@@ -21,7 +21,7 @@
         <!-- inizio parte destra -->
         <div class="col-7">
           <div class="text-secondary mb-5">
-            Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.Separated they live in Bookmarksgrove.
+            Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.Separated they live in Bookmarksgrove.Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove.
           </div>
         </div>
         <!-- fine parte destra -->
@@ -105,5 +105,10 @@ export default {
 </script>
 
 <style lang="scss">
-
+  .section3{
+    .title{
+      font-size: 3rem;
+      font-family: "Quicksand";
+    }
+  }
 </style>

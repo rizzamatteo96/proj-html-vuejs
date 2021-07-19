@@ -2,7 +2,7 @@
   <div class="section5 py-5">
     <div class="container-fluid text-center">
       <!-- titolo + divisore sezione -->
-      <div class="title text-capitalize fs-1 fw-bold">Latest news &amp; our <span class="ms-green">blog</span></div>
+      <div class="title text-capitalize fw-bold">Latest news &amp; our <span class="ms-green">blog</span></div>
       <div class="divider my-5"></div>
 
       <!-- inizio card con immagini -->
@@ -92,6 +92,11 @@ export default {
 <style lang="scss">
   .section5{
     background-color: #f9f9f9;
+
+    .title{
+      font-size: 3rem;
+      font-family: "Quicksand";
+    }
 
     .btn-view{
       margin: 10rem 0 5rem 0;

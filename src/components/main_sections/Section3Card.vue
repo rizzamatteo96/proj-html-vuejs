@@ -1,6 +1,6 @@
 <template>
   <div class="section3card">
-    <div>
+    <div class="pointer">
       <img :src="require(`@/assets/img/${cardInfo.img}`)" alt="example" class="rounded rounded-3 w-100">
       <div class="layover rounded rounded-3 d-flex flex-column justify-content-end ps-5 text-white pb-5">
         <div class="text-capitalize fs-3 fw-bold">

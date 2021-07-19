@@ -1,10 +1,18 @@
+// load bootstrap
 @import 'bootstrap';
+
+// load ubuntu font
 @import '~@fontsource/ubuntu/index.css'; 
 @import '~@fontsource/ubuntu/400.css';
 
+// load quicksand font
+@import '~@fontsource/quicksand/index.css'; 
+@import '~@fontsource/quicksand/400.css';
+@import '~@fontsource/quicksand/500.css';
+@import '~@fontsource/quicksand/600.css';
+@import '~@fontsource/quicksand/700.css';
+
 $ms-green: #00d9a6;
-
-
 
 *{
   margin: 0;
@@ -23,6 +31,7 @@ body{
 .ms-btn{
   display: inline-block !important;
   text-transform: uppercase;
+  font-family: "Quicksand";
   color: white;
   padding: 1rem 3rem;
   border: none;

@@ -8,6 +8,7 @@
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
+    "@fontsource/quicksand": "^4.5.0",
     "@fontsource/ubuntu": "^4.5.0",
     "@fortawesome/fontawesome-free": "^5.15.3",
     "bootstrap": "^5.0.2",
