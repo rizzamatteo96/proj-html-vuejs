@@ -1,7 +1,7 @@
 <template>
   <div class="section4 my-5 ">
     <div class="container-fluid overlay text-center py-5">
-      <div class="ms-fs-big ms-green">&quot;</div>
+      <div class="ms-fs-big ms-green">“</div>
       <div class="text-secondary fst-italic fs-4 my-5 w-50 mx-auto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos odit natus expedita nulla iure ut numquam repellat veritatis saepe cumque odio repellendus nihil unde sint nemo nobis, voluptate iusto consequuntur!</div>
       <div class="client"> 
         <img src="@/assets/img/business-woman.jpg" alt="business woman">
