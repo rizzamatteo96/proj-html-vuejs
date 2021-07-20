@@ -23,7 +23,10 @@
 
           <div class="text-secondary mb-3">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.Separated they live in Bookmarksgrove.</div>
 
-          <button class="ms-btn ms-btn-light-green mt-5">Read more</button>
+          <button class="ms-btn ms-btn-light-green mt-5">
+            <span class="btn-overlay"></span>
+            <span class="btn-text">Read more</span>
+          </button>
         </div>
         <!-- fine parte destra -->
       </div>

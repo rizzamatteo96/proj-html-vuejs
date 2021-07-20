@@ -8,7 +8,10 @@
             We are here to make your <span class="ms-green">website</span> look more <span class="ms-green">elegant</span> and stylish!
           </div>
           <div class="divider my-5"></div>
-          <button class="ms-btn ms-btn-light-green">View all</button>
+          <button class="ms-btn ms-btn-light-green">
+            <span class="btn-overlay"></span>
+            <span class="btn-text">View all</span>
+          </button>
         </div>
         <!-- fine parte sinistra -->
 
@@ -92,7 +95,7 @@ export default {
           left: 0;
           border-radius: 20px;
           background-image: linear-gradient(to right, rgba(7, 217, 0, 0.8) , rgba(0, 219, 168, 0.8));
-          transition: opacity 1s;
+          transition: opacity 0.5s;
           opacity: 0;
         }
 

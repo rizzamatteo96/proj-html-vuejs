@@ -13,7 +13,10 @@
 
       <!-- pulsante centrale nero -->
       <div class="text-center">
-        <button class="ms-btn ms-btn-black btn-view">View all post</button>
+        <button class="ms-btn ms-btn-black btn-view">
+          <span class="btn-overlay"></span>
+          <span class="btn-text">View all post</span>
+        </button>
       </div>
 
       <!-- inizio box colorate -->
@@ -25,7 +28,10 @@
             <div class="fs-1 fw-bold">Start a New Project</div>
             <div class="insert-mail mt-5">
               <input type="text" placeholder="Enter Your Email Address">
-              <button>Submit</button>
+              <button>
+                <span class="btn-overlay"></span>
+                <span class="btn-text">Submit</span>
+              </button>
             </div>
           </div>
         </div>
@@ -36,7 +42,10 @@
           <div class="right">
             <div class="text-secondary">What Are you Waiting for?</div>
             <div class="fs-1 fw-bold">Let's talk about work</div>
-            <button class="ms-btn ms-btn-black mt-5 text-uppercase">Start now</button>
+            <button class="ms-btn ms-btn-black mt-5 text-uppercase">
+              <span class="btn-overlay"></span>
+              <span class="btn-text">Start now</span>
+            </button>
           </div>
         </div>
         <!-- fine box destra -->

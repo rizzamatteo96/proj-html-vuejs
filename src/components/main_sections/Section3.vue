@@ -40,7 +40,10 @@
 
       <!-- pulsante finale sezione 3 -->
       <div class="text-center">
-        <button class="ms-btn ms-btn-light-green my-5">Read more</button>
+        <button class="ms-btn ms-btn-light-green my-5">
+          <span class="btn-overlay"></span>
+          <span class="btn-text">Read more</span>
+        </button>
       </div>
 
     </div>

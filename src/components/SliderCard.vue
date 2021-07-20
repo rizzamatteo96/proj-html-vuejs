@@ -24,7 +24,10 @@
 
         <!-- pulsante read more -->
         <div class="read-more my-5">
-          <button class="ms-btn ms-btn-black">Read more</button>
+          <button class="ms-btn ms-btn-black">
+            <span class="btn-overlay"></span>
+            <span class="btn-text">Read more</span>
+          </button>
         </div>
 
         <!-- link ai social -->

@@ -21,7 +21,10 @@
 
       <!-- nella parte destra ci sono un pulsante e una lente per la ricerca -->
       <div class="right d-flex align-items-center">
-        <button class="ms-btn ms-btn-light-green me-4">Purchase</button>
+        <button class="ms-btn ms-btn-light-green me-4">
+          <span class="btn-overlay"></span>
+          <span class="btn-text">Purchase</span>
+        </button>
         <i class="fas fa-search ms-green pointer"></i>
       </div>
     </div>
