@@ -17,9 +17,12 @@
           <div class="find-out row row-cols-2 g-5 m-0 p-0">
             <div v-for="(data,i) in findOutData" :key="i">
               <div class="card">
-                <i :class="data.icon" class="mb-4"></i>
-                <div class="title fs-3 mb-2"> {{data.title}} </div>
-                <div> {{data.par}} </div>
+                <div class="background-hover"></div>
+                <div class="card-data">
+                  <i :class="data.icon" class="mb-4"></i>
+                  <div class="title fs-3 mb-2"> {{data.title}} </div>
+                  <div> {{data.par}} </div>
+                </div>
               </div>
             </div>
           </div>
@@ -72,29 +75,56 @@ export default {
       font-family: "Quicksand";
     }
 
-    .find-out .card {
-      box-shadow: 0 0 30px lightgray;
-      border-radius: 20px;
-      transition: all 0.5s;
-      padding: 5rem 3rem;
+    .find-out{
+      position: relative;
 
-      i{
-        font-size: 3rem;
+      .card {
+        box-shadow: 0 0 30px lightgray;
+        border-radius: 20px;
         transition: all 0.5s;
-        color: #00d9a6;
-      }
-  
-      &:hover{
-        // background-color: red;
-        background-image: linear-gradient(to right, rgba(7, 217, 0, 0.8) , rgba(0, 219, 168, 0.8));
-        box-shadow: 5px 5px 20px  #00d9a656;
-        color: white !important;
-        cursor: pointer;
-  
-        i{
-          color: white;
+        padding: 5rem 3rem;
+
+        .background-hover{
+          position: absolute;
+          top: 0;
+          right: 0;
+          bottom: 0;
+          left: 0;
+          border-radius: 20px;
+          background-image: linear-gradient(to right, rgba(7, 217, 0, 0.8) , rgba(0, 219, 168, 0.8));
+          transition: opacity 1s;
+          opacity: 0;
+        }
+
+        .card-data{
+          position: relative;
+          z-index: 99;
+        
+          i{
+            font-size: 3rem;
+            transition: all 0.5s;
+            color: #00d9a6;
+          }
+        }
+    
+        &:hover{
+
+          // background-image: linear-gradient(to right, rgba(7, 217, 0, 0.8) , rgba(0, 219, 168, 0.8));
+          box-shadow: 5px 5px 20px  #00d9a656;
+          color: white !important;
+          cursor: pointer;
+
+          .background-hover{
+            opacity: 1;
+          }
+    
+          i{
+            color: white;
+          }
         }
       }
     }
+    
   }
+
 </style>
