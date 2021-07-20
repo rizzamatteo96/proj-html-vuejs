@@ -11,6 +11,7 @@
         <SliderCard
         v-for="(card,i) in cardInfo" :key="i"
         :cardInfomations="card"
+        :activeClass="(i == index) ? 'active' : ''"
         />
       </VueSlickCarousel>
 
@@ -51,7 +52,7 @@ export default {
         arrows : false,
         asNavFor : null,
         autoplay : true,
-        autoplaySpeed : 5000,
+        autoplaySpeed : 7000,
         centerMode : false,
         centerPadding : '50px',
         cssEase : 'ease',
@@ -114,7 +115,7 @@ export default {
       this.index = loadedSlide;
     },
     goToSlideNr(i){
-      this.$refs.carousel.goTo(i)
+      this.$refs.carousel.goTo(i);
     }
   }
 }
