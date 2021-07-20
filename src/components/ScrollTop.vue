@@ -22,7 +22,7 @@ export default {
 <style lang="scss">
   .scroll-top{
     position: fixed;
-    bottom: 30px;
+    bottom: -30px;
     right: 130px;
     z-index: 9999;
     background-color: white;
@@ -30,11 +30,20 @@ export default {
     border: 1px solid black;
     border-radius: 50%;
     transition: all 0.5s;
+    animation-name: appearScroll;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in-out;
 
     &:hover{
       background-color: black;
       border: 1px solid white;
       color: white;
+    }
+
+    @keyframes appearScroll {
+      from{bottom: -30px;}
+      to{bottom: 30px;}
     }
   }
 </style>
