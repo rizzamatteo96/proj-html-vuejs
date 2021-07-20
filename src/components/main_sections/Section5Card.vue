@@ -1,10 +1,12 @@
 <template>
   <div class="section5-card">
     <div class="ms-container w-100 position-relative">
-      <img 
-      :src="require(`@/assets/img/${cardData.img}`)" 
-      alt="business picture"
-      class="w-100">
+      <div class="img-cont">
+        <img 
+        :src="require(`@/assets/img/${cardData.img}`)" 
+        alt="business picture"
+        class="w-100">
+      </div>
 
       <div class="text-place text-start">
         <div class="ms-text-secondary fs-6"> {{cardData.date}} </div>
@@ -27,24 +29,38 @@ export default {
 
 <style lang="scss">
   .section5-card{
-    img{
-      box-shadow: 5px 5px 20px grey;
-      border-radius: 5px;
-    }
 
-    &:hover .text-place{
-      bottom: -20px;
-      background-image: linear-gradient(to right, rgba(7, 217, 0, 0.8) , rgba(0, 219, 168, 0.8));
-      color: white;
+    .img-cont{
+      overflow: hidden;
 
-      .ms-text-secondary{
-        color: white;
-      }
-
-      ul li::marker{
-        color: white;
+      img{
+        box-shadow: 5px 5px 20px grey;
+        border-radius: 5px;
+        transition: transform 1s;
       }
     }
+
+    
+
+    &:hover{
+      .img-cont img{
+        transform: scale(1.1);
+      }
+
+      .text-place{
+        bottom: -20px;
+        background-image: linear-gradient(to right, rgba(7, 217, 0, 0.8) , rgba(0, 219, 168, 0.8));
+        color: white;
+  
+        .ms-text-secondary{
+          color: white;
+        }
+  
+        ul li::marker{
+          color: white;
+        }
+      }
+    } 
 
     .text-place{
       position: absolute;
