@@ -26,7 +26,7 @@
           <div class="left">
             <div class="text-secondary">Are you ready?</div>
             <div class="fs-1 fw-bold">Start a New Project</div>
-            <div class="insert-mail mt-5">
+            <div class="insert-mail clearfix mt-5">
               <input type="text" placeholder="Enter Your Email Address">
               <button>
                 <span class="btn-overlay"></span>
@@ -127,21 +127,25 @@ export default {
           width: 70%;
           margin: 0 auto;
           background-color: grey;
-          padding: 0 3rem;
           border: none;
           border-radius: 100px;
 
           input{
-            padding: 1rem 15% 1rem 0;
+            padding: 1rem 2rem;
             background-color: unset;
             border: none;
+            float: left;
+            width: 70%;
+            outline: none !important;
           }
 
           button{
+            padding: 1rem 2rem;
             background-color: unset;
             border: none;
             text-transform: uppercase;
-            color: #444444
+            color: #444444;
+            float: right;
           }
         }
       }

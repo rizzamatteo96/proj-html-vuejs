@@ -28,6 +28,12 @@ body{
   cursor: pointer;
 }
 
+.clearfix::after{
+  content: '';
+  display: table;
+  clear: both;
+}
+
 .ms-btn{
   display: inline-block !important;
   text-transform: uppercase;
