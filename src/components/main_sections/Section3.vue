@@ -109,6 +109,8 @@ export default {
 
 <style lang="scss">
   .section3{
+    overflow-x: hidden;
+
     .title{
       font-size: 3rem;
       font-family: "Quicksand";
