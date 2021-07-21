@@ -31,7 +31,7 @@ export default {
     border-radius: 50%;
     transition: all 0.5s;
     animation-name: appearScroll;
-    animation-duration: 0.5s;
+    animation-duration: 0.3s;
     animation-fill-mode: forwards;
     animation-timing-function: ease-in-out;
 
@@ -43,7 +43,7 @@ export default {
 
     @keyframes appearScroll {
       from{bottom: -30px;}
-      to{bottom: 30px;}
+      to{bottom: 25px;}
     }
   }
 </style>

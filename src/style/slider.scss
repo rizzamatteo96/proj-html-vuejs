@@ -2,6 +2,11 @@
   margin-top: 150px;
   background-color: #f9f9f9;
   overflow: hidden;
+  cursor: grab;
+
+  &:active{
+    cursor: grabbing;
+  }
 
   .altezza{
     height: 1000px;
